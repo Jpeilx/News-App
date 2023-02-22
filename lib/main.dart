@@ -15,11 +15,17 @@ void main() async {
   Bloc.observer = MyBlocObserver();
   await CacheHelper.init();
   DioHelper.init();
+  final bool? boolisdark = CacheHelper.getbooleandata(key: 'isdark');
+  if (boolisdark!=null) {
+    isdark =boolisdark ;
+  }
+
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  final bool? boolisdark = CacheHelper.getbooleandata(key: 'isdark');
+  
+
 
   MyApp({super.key});
 

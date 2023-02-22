@@ -50,7 +50,7 @@ class NewsCubit extends Cubit <NewsStates>{
     query: {
       'country':'us',
       'category':'business',
-      'apiKey':'4e156a8451404a9eb6a33e64f17a0d1c',
+      'apiKey':apiKey,
     }
    ).then((value){
     business = value?.data['articles'] ;
@@ -70,7 +70,7 @@ class NewsCubit extends Cubit <NewsStates>{
     query: {
       'country':'us',
       'category':'science',
-      'apiKey':'4e156a8451404a9eb6a33e64f17a0d1c',
+      'apiKey':apiKey,
     }
    ).then((value){
     scince  = value?.data['articles'] ;
@@ -90,7 +90,7 @@ class NewsCubit extends Cubit <NewsStates>{
     query: {
       'country':'us',
       'category':'sports',
-      'apiKey':'4e156a8451404a9eb6a33e64f17a0d1c',
+      'apiKey':apiKey,
     }
    ).then((value){
     sports = value?.data['articles'] ;
@@ -109,7 +109,7 @@ class NewsCubit extends Cubit <NewsStates>{
     url: 'v2/everything' , 
     query: {
       'q': value ,
-      'apiKey':'4e156a8451404a9eb6a33e64f17a0d1c',
+      'apiKey':apiKey,
     }
    ).then((value){
     search = value?.data['articles'] ;
@@ -120,17 +120,13 @@ class NewsCubit extends Cubit <NewsStates>{
     emit(GetSearchErorrState(error.toString())) ; 
    }) ; 
   } 
-   void changethememode({bool ? fromshared }){
-    if (fromshared != null ){
-         isdark = fromshared ;  
-         emit(ChangeThemeModeState()) ; 
-    }
-    else {
-    isdark = !isdark ; 
-    emit(ChangeThemeModeState()) ;
+   void changethememode(){
+    
+    isdark = !isdark ;
     CacheHelper.setbooleandata(key: 'isdark', value: isdark).then((value) {
-    });
-    }
+    }); 
+    emit(ChangeThemeModeState()) ;
+    
   }
   
 

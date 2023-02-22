@@ -1,0 +1,4 @@
+#Wed Feb 22 11:28:35 EET 2023
+base.0=C\:\\Users\\User\\development\\projects\\news\\build\\app\\intermediates\\dex\\profile\\mergeDexProfile\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

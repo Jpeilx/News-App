@@ -5,6 +5,8 @@ import 'package:news/layout/cubit/newsstates.dart';
 import 'package:news/modules/search/search_screan.dart';
 import 'package:news/shared/components/components.dart';
 
+import '../shared/network/local/cache_helper.dart';
+
 class Newslayout extends StatelessWidget {
   const Newslayout({super.key});
 
@@ -14,6 +16,8 @@ class Newslayout extends StatelessWidget {
     BlocConsumer<NewsCubit, NewsStates>(
           listener: (context, state) {},
           builder: (context, state) {
+             
+
             var cubit = NewsCubit.get(context);
             return Scaffold(
               appBar: AppBar(
@@ -22,6 +26,7 @@ class Newslayout extends StatelessWidget {
                   navigateTo(context, const SearchScrean() ) ;
                 }, icon: const Icon(Icons.search)) ,
                 IconButton(onPressed: (){
+
                   cubit.changethememode() ;
                 }, icon: const Icon(Icons.brightness_4_outlined))
                 ],
