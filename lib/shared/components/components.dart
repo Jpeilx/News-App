@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:news/modules/webview/webview_screan.dart';
@@ -18,7 +19,7 @@ Widget buildArticleItem( article  , context , bool isdark ){
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20.0),
                 image:  DecorationImage(
-                    image: NetworkImage(
+                    image: CachedNetworkImageProvider(
                         '${article['urlToImage']}'),
                     fit: BoxFit.cover),
               ),
