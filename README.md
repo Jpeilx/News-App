@@ -37,10 +37,11 @@ This is a simple news app built with Flutter, a UI toolkit for creating natively
 ## Live video 
 
 ## Screen Shots
-![Dark Mode](https://drive.google.com/file/d/1NHpZWFzVfEPOSxR403LOMh3S4BYBTXXv/view?usp=sharing) 
-![Light Mode](https://drive.google.com/file/d/1NJB8kFW04rGqOIt41AKViHjHXiAPkNuY/view)
-![Search Screen](https://drive.google.com/file/d/1NInTLZ7gHZ12H93auWeLnaP9mV-lXqdC/view?usp=sharing)
-![Web Viewer](https://drive.google.com/file/d/1NIqPpkrQs1k3HWRNzjwHlyXRiV9bU6Hp/view?usp=sharing)
+![photo_6030836371322681913_y](https://user-images.githubusercontent.com/96302371/220876965-014e9e26-9c8e-4d12-adbe-c9597b44bd99.jpg)
+![photo_6030836371322681916_y](https://user-images.githubusercontent.com/96302371/220877387-cdbcc97f-99bc-48b1-9fb7-8b42329e324c.jpg)
+![photo_6030836371322681914_y](https://user-images.githubusercontent.com/96302371/220877138-247eb2ed-21c2-43d9-9055-a864910d1316.jpg)
+![photo_6030836371322681915_y](https://user-images.githubusercontent.com/96302371/220877290-fa84e88e-19e3-45ca-b685-825ad357588d.jpg)
+
 
 
 
