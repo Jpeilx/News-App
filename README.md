@@ -38,7 +38,7 @@ This is a simple news app built with Flutter, a UI toolkit for creating natively
 
 ## Screen Shots
 ![Dark Mode](https://drive.google.com/file/d/1NHpZWFzVfEPOSxR403LOMh3S4BYBTXXv/view?usp=sharing) 
-![Light Mode](https://drive.google.com/file/d/1NJB8kFW04rGqOIt41AKViHjHXiAPkNuY/view?usp=sharing)
+![Light Mode](https://drive.google.com/file/d/1NJB8kFW04rGqOIt41AKViHjHXiAPkNuY/view)
 ![Search Screen](https://drive.google.com/file/d/1NInTLZ7gHZ12H93auWeLnaP9mV-lXqdC/view?usp=sharing)
 ![Web Viewer](https://drive.google.com/file/d/1NIqPpkrQs1k3HWRNzjwHlyXRiV9bU6Hp/view?usp=sharing)
 
