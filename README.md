@@ -35,6 +35,7 @@ This is a simple news app built with Flutter, a UI toolkit for creating natively
 6. Change between dark and light mode using the Theme toggle switch in App Bar .
 
 ## Live video 
+[Live Video](https://drive.google.com/file/d/1NKvC8ODPXBwG3juKMuL9nVwg-eET1F3w/view?fbclid=IwAR1zQacebH_BdEEJTurWchNqF6Td0GkZw5VVIaWIKuY284SnAZC9j4ZPR1o)
 
 ## Screen Shots
 
