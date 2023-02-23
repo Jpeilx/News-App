@@ -38,14 +38,7 @@ This is a simple news app built with Flutter, a UI toolkit for creating natively
 
 ## Screen Shots
 
-![photo_6030836371322681913_y](https://user-images.githubusercontent.com/96302371/220876965-014e9e26-9c8e-4d12-adbe-c9597b44bd99.jpg)
-
-![photo_6030836371322681916_y](https://user-images.githubusercontent.com/96302371/220877387-cdbcc97f-99bc-48b1-9fb7-8b42329e324c.jpg)
-
-![photo_6030836371322681914_y](https://user-images.githubusercontent.com/96302371/220877138-247eb2ed-21c2-43d9-9055-a864910d1316.jpg)
-
-![photo_6030836371322681915_y](https://user-images.githubusercontent.com/96302371/220877290-fa84e88e-19e3-45ca-b685-825ad357588d.jpg)
-
+![photo_6030836371322681916_y](https://user-images.githubusercontent.com/96302371/220892840-27195bb1-b461-44e9-a4b3-a0756d1bd530.png)
 
 
 
